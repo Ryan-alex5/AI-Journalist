@@ -44,5 +44,6 @@ The AI Journalist Agent utilizes three main components:
 1. Tone Selector: Allows user to choose the tone the article is written in.
 2. Article Format Selector: Allows the user to choose the format of the article(blog, news, report, opinion piece).
 3. Fact Verification Agent: An agent that finds the facts written in the article and verifies the facts. Also provides the links from where they are found.
-4. Multilingual Support: Allows user to choose what language they want the article to be written in.
+4. Sources and Citations: Shows a list of the URLs used to write the article at the bottom of the page. Allows the user to read up on where the information has come from.
+5. Multilingual Support: Allows user to choose what language they want the article to be written in.
 
