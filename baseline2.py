@@ -121,13 +121,7 @@ if openai_api_key and serp_api_key:
     markdown=True
 )
 
-    # Input field for the report query
-    # query = st.text_input("What do you want the AI journalist to write an Article on?")
-    # tone = st.selectbox("Select tone", ["Professional", "Casual", "Persuasive", "Neutral"])
-    # article_format = st.selectbox(
-    # "Select the article format",
-    # ["News Report", "Opinion Piece", "Blog Post", "Executive Summary"]
-# )
+
 
 with st.form("article_form"):
     query = st.text_input("🧠 What do you want the AI journalist to write an article on?")
