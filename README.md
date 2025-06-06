@@ -39,3 +39,10 @@ The AI Journalist Agent utilizes three main components:
 - Writer: Retrieves the text from the provided URLs using the NewspaperToolkit and writes a high-quality article based on the extracted information.
 - Editor: Coordinates the workflow between the Searcher and Writer, and performs final editing and refinement of the generated article.
 
+
+### Changes I made to the project
+1. Tone Selector: Allows user to choose the tone the article is written in.
+2. Article Format Selector: Allows the user to choose the format of the article(blog, news, report, opinion piece).
+3. Fact Verification Agent: An agent that finds the facts written in the article and verifies the facts. Also provides the links from where they are found.
+4. Multilingual Support: Allows user to choose what language they want the article to be written in.
+
